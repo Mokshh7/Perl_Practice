@@ -1,0 +1,23 @@
+use warnings;
+use strict;
+use feature 'say';
+
+my $para = "Python is powerful and widely used in data engineering and
+automation.";
+
+my $keyword = "data";
+
+my @array = split / /,$para;
+for (my $i = 0 ; $i<@array ; $i++){
+
+if($array[$i] eq "data"){
+
+for (my $j = $i-5 ; $j < $i+5 ; $j++){
+if(defined $array[$j] ){
+print " $array[$j] ";
+}
+}
+print "\n" ;
+}
+
+}
