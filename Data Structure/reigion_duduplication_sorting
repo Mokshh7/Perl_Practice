@@ -1,0 +1,19 @@
+use strict;
+use warnings;
+use feature 'say';
+
+
+my @reigons = ("APAC", "EMEA", "AMER", "APAC");
+
+my %hash;
+
+foreach (@reigons){
+
+$hash{$_} += 1;
+
+}
+
+foreach my $key(keys %hash){
+
+say $key;
+}
