@@ -1,0 +1,11 @@
+use strict;
+use warnings ;
+use feature 'say';
+
+my %hash = ( IT => { head=>"Alice", size=>15 },
+HR => { head=>"Bob", size=>5 } );
+
+foreach (keys %hash){
+if(  $hash{$_}->{size} > 10){say $_ ;}
+#say $hash{$_}->{size};
+}
