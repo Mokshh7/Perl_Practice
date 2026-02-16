@@ -1,0 +1,7 @@
+[2026-01-25 14:32:11] ERROR auth_service Invalid token
+[2026-01-25 14:33:02] INFO auth_service User login successful
+[2026-01-25 14:35:47] WARN auth_service Password attempt failed
+[2026-01-25 14:36:10] ERROR auth_service Session expired
+[2026-01-25 14:40:01] INFO auth_service Logout successful
+INVALID LINE WITHOUT FORMAT
+[2026-01-25 14:41:99] INFO auth_service Bad timestamp

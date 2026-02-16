@@ -1,0 +1,47 @@
+<employees><employee ID="201"><name>Amit</name><department>HR</department><salary>45000</salary><status>active</status></employee></employees><employees><employee ID="201"><name>Amit</name><department>HR</department><salary>45000</salary><status>active</status></employee></employees><?xml version="1.0" encoding="UTF-8"?>
+<employees><employee ID="201"><name>Amit</name><department>HR</department><salary>45000</salary><status>active</status></employee></employees>
+<?xml version="1.0" encoding="UTF-8"?>
+<employees>
+  <employee ID="201">
+    <name>Amit</name>
+    <department>HR</department>
+    <salary>45000</salary>
+    <status>active</status>
+  </employee>
+</employees>
+<?xml version="1.0" encoding="UTF-8"?>
+<employees>
+  <employee ID="201">
+    <name>Amit</name>
+    <department>HR</department>
+    <salary>45000</salary>
+    <status>active</status>
+  </employee>
+</employees>
+<?xml version="1.0" encoding="UTF-8"?>
+<employees>
+  <employee ID="201">
+    <name>Amit</name>
+    <department>HR</department>
+    <salary>45000</salary>
+    <status>active</status>
+  </employee>
+</employees>
+<?xml version="1.0" encoding="UTF-8"?>
+<employees>
+  <employee ID="201">
+    <name>Amit</name>
+    <department>HR</department>
+    <salary>45000</salary>
+    <status>active</status>
+  </employee>
+</employees>
+<?xml version="1.0" encoding="UTF-8"?>
+<employees>
+  <employee ID="201">
+    <name>Amit</name>
+    <department>HR</department>
+    <salary>45000</salary>
+    <status>active</status>
+  </employee>
+</employees>

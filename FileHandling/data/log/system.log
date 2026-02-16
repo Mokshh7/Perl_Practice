@@ -1,0 +1,6 @@
+[2026-01-25 16:10:00] INFO system_service System startup
+[2026-01-25 16:12:45] WARN system_service High memory usage
+[2026-01-25 16:15:22] INFO system_service Health check passed
+[2026-01-25 16:18:09] ERROR system_service Disk read failure
+[2026-01-25 16:20:30] INFO system_service Cleanup complete
+[2026-01-25 16:21:00 ERROR system_service Missing bracket

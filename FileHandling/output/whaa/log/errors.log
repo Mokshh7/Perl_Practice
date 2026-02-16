@@ -1,0 +1,6 @@
+this all goes to errors.log at redirecting_error.pl line 7.
+[2026-01-25 14:32:11] ERROR auth_service Invalid token
+[2026-01-25 14:36:10] ERROR auth_service Session expired
+[2026-01-25 15:02:45] ERROR payment_service Card declined
+[2026-01-25 15:07:11] ERROR payment_service Duplicate transaction
+[2026-01-25 16:18:09] ERROR system_service Disk read failure

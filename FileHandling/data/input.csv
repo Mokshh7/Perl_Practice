@@ -1,0 +1,8 @@
+id,name,department,notes,salary
+101,"Smith, John",Engineering,"Works on core systems",75000
+102,"Doe, Jane",HR,"Joined on 2023-01-12",68000
+103,"O'Neil, Sam",Finance,"Expert in "risk analysis"",82000
+104,"Brown, Alex",IT,"Handles servers
+and infrastructure",79000
+105,Chris,Marketing,"Uses commas, quotes, and ""escapes"" correctly",65000
+

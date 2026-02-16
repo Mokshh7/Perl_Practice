@@ -1,0 +1,6 @@
+id,name,department,salary,email,active
+101,Amit Sharma,Engineering,75000,amit.sharma@example.com,true
+102,Neha Verma,HR,52000,neha.verma@example.com,true
+103,Rahul Mehta,Finance,68000,rahul.mehta@example.com,false
+104,Priya Singh,Marketing,60000,priya.singh@example.com,true
+105,Arjun Patel,Engineering,82000,arjun.patel@example.com,true

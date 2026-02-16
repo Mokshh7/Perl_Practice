@@ -1,0 +1,18 @@
+<!DOCTYPE employees SYSTEM "employees.dtd">
+<employees>
+    <employee>
+        <id>101</id>
+        <name>Aman</name>
+        <department>IT</department>
+        <salary>65000</salary>
+        <status>active</status>
+    </employee>
+
+    <employee>
+        <id>102</id>
+        <name>Aman</name>
+        <department>IT</department>
+        <salary>65000</salary>
+        <status>active</status>
+    </employee>
+</employees>

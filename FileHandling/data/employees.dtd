@@ -1,0 +1,9 @@
+<!ELEMENT employees (employee+)>
+
+<!ELEMENT employee (id, name, department, salary, status)>
+
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT department (#PCDATA)>
+<!ELEMENT salary (#PCDATA)>
+<!ELEMENT status (#PCDATA)>

@@ -1,0 +1,4 @@
+date,service,error_count,warn_count,info_count
+2026-01-25,auth_service,8,7,0
+2026-01-25,payment_service,7,6,0
+2026-01-25,system_service,6,6,0

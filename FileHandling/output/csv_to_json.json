@@ -1,0 +1,43 @@
+[
+   {
+      "name" : "Amit Sharma",
+      "department" : "Engineering",
+      "email" : "amit.sharma@example.com",
+      "active" : "true",
+      "id" : "101",
+      "salary" : "75000"
+   },
+   {
+      "department" : "HR",
+      "name" : "Neha Verma",
+      "id" : "102",
+      "salary" : "52000",
+      "active" : "true",
+      "email" : "neha.verma@example.com"
+   },
+   {
+      "department" : "Finance",
+      "name" : "Rahul Mehta",
+      "active" : "false",
+      "id" : "103",
+      "salary" : "68000",
+      "email" : "rahul.mehta@example.com"
+   },
+   {
+      "name" : "Priya Singh",
+      "department" : "Marketing",
+      "email" : "priya.singh@example.com",
+      "salary" : "60000",
+      "id" : "104",
+      "active" : "true"
+   },
+   {
+      "id" : "105",
+      "salary" : "82000",
+      "active" : "true",
+      "email" : "arjun.patel@example.com",
+      "department" : "Engineering",
+      "name" : "Arjun Patel"
+   }
+]
+

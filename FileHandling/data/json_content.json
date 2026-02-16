@@ -1,0 +1,33 @@
+{
+  "metadata": {
+    "source": "employee_csv_import",
+    "generated_at": "2026-01-27T01:00:00+05:30",
+    "record_count": 3
+  },
+  "employees": [
+    {
+      "id": 101,
+      "name": "Amit Sharma",
+      "department": "Engineering",
+      "salary": 75000,
+      "email": "amit.sharma@example.com",
+      "active": true
+    },
+    {
+      "id": 102,
+      "name": "Neha Verma",
+      "department": "HR",
+      "salary": 52000,
+      "email": "neha.verma@example.com",
+      "active": true
+    },
+    {
+      "id": 103,
+      "name": "Rahul Mehta",
+      "department": "Finance",
+      "salary": null,
+      "email": "rahul.mehta@example.com",
+      "active": false
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+id,name,email,age,city,salary,notes
+1,John Doe,john.doe@example.com,28,New York,55000,"Good performer"
+2,"Jane, A.",jane.a@example.com,34,Los Angeles,72000,"Promoted in 2023"
+3,Bob Smith,bob.smith@example,45,Chicago,68000,"Invalid email domain"
+4,Alice Wong,alice.wong@example.com,29,San Francisco,,"Missing salary"
+5,Mark O'Neil,mark.oneil@example.com,52,Boston,81000,"Senior ""Lead"" Engineer"
+6,Rahul Kumar,rahul.kumar@example.com,24,Bengaluru,45000,"New
+hire from campus"
+7,Emily Stone,emily.stone@example.com,130,Seattle,60000,"Age out of range"
+8,Tom Lee,tom.lee@example.com,31,San Jose,59000
+9,Anna White,anna.white@example.com,27,Denver,57000,"Extra column here",unexpected
+10,Chris Green,chris.green@example.com,35,Miami,62000,"Trailing space in city "
+11,,missing.name@example.com,40,Dallas,65000,"Missing name"
+12,Olivia Brown,olivia.brown@example.com,22,,48000,"Missing city"

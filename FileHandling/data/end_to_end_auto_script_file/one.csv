@@ -1,0 +1,16 @@
+employee_id,name,department,email,salary,join_date,status
+101,Aman Sharma,IT,aman.sharma@company.com,65000,2022-06-15,active
+102,Riya Verma,HR,riya.verma@company.com,58000,2021-03-10,active
+103,,Finance,rohan.kapoor@company.com,72000,2020-11-01,active
+104,Neha Singh,IT,neha.singhcompany.com,60000,2022-01-20,active
+105,Arjun Mehta,Sales,arjun.mehta@company.com,,2023-02-05,active
+106,Kavya Iyer,Finance,kavya.iyer@company.com,68000,2019-08-30,terminated
+107,Rohit Malhotra,IT,rohit.malhotra@company.com,-45000,2021-07-12,active
+108,Priya Nair,Marketing,priya.nair@company.com,55000,2024-13-01,active
+109,Ankit Jain,IT,ankit.jain@company.com,70000,2018-05-18,
+110,Sunita Rao,HR,sunita.rao@company.com,62000,2020-09-25,active
+111,12345,IT,number.name@company.com,64000,2021-04-01,active
+112,Rahul Das,Finance,rahul.das@company.com,abc,2022-12-12,active
+113,Meera Joshi,Sales,meera.joshi@company.com,59000,2022-10-10,ACTIVE
+114,Vikram Patel,IT,vikram.patel@company.com,71000,2021-01-01,active
+
