@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Moksh",
+    "age": 21,
+    "role": "developer",
+    "skills": ["perl", "mongodb", "linux"],
+    "isActive": true,
+    "address": {
+      "city": "Chandigarh",
+      "pincode": 160017
+    },
+    "createdAt": "2026-02-19T10:00:00Z"
+  },
+  {
+    "name": "Simran",
+    "age": 22,
+    "role": "intern",
+    "skills": ["python", "mongo", "sql"],
+    "isActive": true,
+    "address": {
+      "city": "Delhi",
+      "pincode": 110001
+    },
+    "createdAt": "2026-02-18T09:30:00Z"
+  },
+  {
+    "name": "Aman",
+    "age": 24,
+    "role": "tester",
+    "skills": ["java", "selenium", "sql"],
+    "isActive": false,
+    "address": {
+      "city": "Mumbai",
+      "pincode": 400001
+    },
+    "createdAt": "2026-02-17T11:15:00Z"
+  },
+  {
+    "name": "Riya",
+    "age": 23,
+    "role": "analyst",
+    "skills": ["excel", "mongo", "powerbi"],
+    "isActive": true,
+    "address": {
+      "city": "Bangalore",
+      "pincode": 560001
+    },
+    "createdAt": "2026-02-16T08:45:00Z"
+  },
+  {
+    "name": "Karan",
+    "age": 26,
+    "role": "developer",
+    "skills": ["nodejs", "mongodb", "docker"],
+    "isActive": true,
+    "address": {
+      "city": "Pune",
+      "pincode": 411001
+    },
+    "createdAt": "2026-02-15T12:00:00Z"
+  },
+  {
+    "name": "Neha",
+    "age": 20,
+    "role": "intern",
+    "skills": ["c", "cpp", "linux"],
+    "isActive": false,
+    "address": {
+      "city": "Jaipur",
+      "pincode": 302001
+    },
+    "createdAt": "2026-02-14T07:20:00Z"
+  },
+  {
+    "name": "Rahul",
+    "age": 28,
+    "role": "tester",
+    "skills": ["postman", "api-testing", "mongodb"],
+    "isActive": true,
+    "address": {
+      "city": "Hyderabad",
+      "pincode": 500001
+    },
+    "createdAt": "2026-02-13T14:50:00Z"
+  },
+  {
+    "name": "Priya",
+    "age": 25,
+    "role": "analyst",
+    "skills": ["sql", "tableau", "python"],
+    "isActive": true,
+    "address": {
+      "city": "Lucknow",
+      "pincode": 226001
+    },
+    "createdAt": "2026-02-12T06:40:00Z"
+  }
+]

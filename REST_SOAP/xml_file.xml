@@ -1,0 +1,12 @@
+<devices>
+    <device>
+        <name>router1</name>
+        <ip>10.0.0.1</ip>
+        <location>datacenter1</location>
+    </device>
+    <device>
+        <name>switch1</name>
+        <ip>10.0.0.2</ip>
+        <location>datacenter2</location>
+    </device>
+</devices>

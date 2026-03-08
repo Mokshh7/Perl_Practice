@@ -1,0 +1,6 @@
+why class 
+can we reduce memory footprint using class
+why not subroutines and OOP is used
+cpan modules
+inheritance-types
+cpan xml agents-smth

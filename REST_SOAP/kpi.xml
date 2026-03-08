@@ -1,0 +1,11 @@
+<metrics>
+    <router name="R1">
+        <cpu>40</cpu>
+        <memory>68</memory>
+    </router>
+
+    <router name="R2">
+        <cpu>72</cpu>
+        <memory>81</memory>
+    </router>
+</metrics>

@@ -1,0 +1,11 @@
+<events>
+    <event>
+        <type>login</type>
+        <user>admin</user>
+    </event>
+
+    <event>
+        <type>logout</type>
+        <user>guest</user>
+    </event>
+</events>

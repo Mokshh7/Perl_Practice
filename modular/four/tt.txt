@@ -1,0 +1,9 @@
+comm skill : below avg
+perl : beginer
+thread : 0 
+dbi : 0
+perl adv data_structure : 0
+my sql : 0
+nosql db : 0
+remarks : not equipped w mandatory skills
+

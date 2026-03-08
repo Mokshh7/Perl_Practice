@@ -1,0 +1,102 @@
+use strict;
+use warnings;
+use feature 'say';
+
+use DBI;
+use POSIX qw(strftime);
+
+use FindBin;
+my $conf_path = "$FindBin::Bin/../config/db.conf";
+use lib "$FindBin::Bin/../lib";
+
+use CDR::Processor;
+
+sub config_loader {
+    my ($filename) = @_;
+    my %config;
+    open my $fh, "<", $filename or die "$!";
+    while (<$fh>) {
+        chomp;
+        next if /^\s*$/;
+        next if /^\s*#/;
+
+        my ( $key, $value ) = split /=/, $_, 2;
+
+        $config{$key} = $value;
+    }
+    close $fh;
+    return \%config;
+}
+
+my $config = config_loader($conf_path);
+
+my $dbh = DBI->connect(
+    $config->{dsn},
+    $config->{db_user},
+    $config->{password},
+    {
+        RaiseError => 1,
+        AutoCommit => 1,
+    }
+) or die "DB connection failed";
+
+# ------------------------------------------------
+# Create Processor
+# ------------------------------------------------
+
+my $processor = CDR::Processor->new( dbh => $dbh );
+
+# ------------------------------------------------
+# Input directory
+# ------------------------------------------------
+
+my $input_dir = "/home/lab/CME/input/";
+
+opendir( my $dh, $input_dir )
+  or die "Cannot open input directory: $!";
+
+while ( my $file = readdir($dh) ) {
+
+    # Skip system entries
+    next if $file =~ /^\./;
+
+    # Only process CSV files
+    next unless $file =~ /\.csv$/i;
+
+    my $full_path = $input_dir . $file;
+    say $full_path;
+
+    say "Processing file: $file";
+
+    my $success = $processor->process_file($full_path);
+    open my $fh, ">>", "/home/lab/CME/logs/mediation.log" or die "$!";
+    my $time = strftime( "%Y-%m-%d %H:%M:%S", localtime() );
+    say $fh "[ $time ]  FILE PROCESSING STARTING BY MEDIATION ENGINE : $file ";
+    close $fh;
+
+    if ($success) {
+        say "✔ File processed successfully";
+        open my $fh, ">>", "/home/lab/CME/logs/mediation.log" or die "$!";
+        my $time = strftime( "%Y-%m-%d %H:%M:%S", localtime() );
+        say $fh "[ $time ]  FILE PROCESSED SUCESSFULLY : $file ";
+        close $fh;
+    }
+    else {
+        say "✖ Processing failed for $file";
+        open my $fh, ">>", "/home/lab/CME/logs/mediation.log" or die "$!";
+        my $time = strftime( "%Y-%m-%d %H:%M:%S", localtime() );
+        say $fh "[ $time ]  FILE NOT PROCESSED : $file ";
+        close $fh;
+    }
+}
+
+closedir($dh);
+
+# ------------------------------------------------
+# Close DB
+# ------------------------------------------------
+
+$dbh->disconnect;
+
+say "CME mediation run completed";
+

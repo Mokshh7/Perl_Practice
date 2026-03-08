@@ -1,0 +1,14 @@
+use strict;
+use warnings;
+use feature 'say';
+use FindBin;
+use lib "$FindBin::Bin/lib";
+use shape;
+use circle;
+use rectangle;
+my $shape = circle->new(radius => 10);
+my $rect = rectangle->new(height => 10,width => 10);
+say $shape->describe;
+say $shape->area;
+say $rect->describe;
+say $rect->area;

@@ -1,0 +1,5 @@
+SUPER
+ISA
+next::method
+UNIVERSAL
+moos,moo,etc

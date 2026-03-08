@@ -1,0 +1,6 @@
+employee_id,name,department,salary,status
+E001,Amit,Engineering,75000,active
+E002,Riya,HR,55000,active
+E003,Rahul,Engineering,,inactive
+E004,Neha,Finance,68000,active
+E005,John,Sales,45000,terminated
