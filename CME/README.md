@@ -23,7 +23,7 @@ CME is a small telecom mediation pipeline that:
 ## Prerequisites
 
 - Perl 5.x
-- MySQL/MariaDB running locally (or reachable host)
+- MySQL running locally (or reachable host)
 - Perl modules:
   - `DBI`
   - `DBD::mysql`
@@ -77,9 +77,6 @@ db_user=root
 password=
 ```
 
-Important: `bin/mediation_engine.pl` reads `db_user` (not `user`).
-If your config uses `user=...`, update it to `db_user=...`.
-
 ## Input CSV format
 
 Header and order must be:
@@ -111,13 +108,13 @@ From repository root:
 
 1. Generate sample CDR file:
 
-```bash
+```
 perl bin/switch_simulator.pl
 ```
 
 2. Process all CSV files currently in `input/`:
 
-```bash
+```
 perl bin/mediation_engine.pl
 ```
 
@@ -131,9 +128,4 @@ perl bin/mediation_engine.pl
   - `logs/mediation.log`
   - `logs/processed_sucessfully.log`
 
-## Notes / known issues
-
-- Log filename is currently spelled `processed_sucessfully.log` in code.
-- The simulator currently generates `VOICE`, `SMS`, and `DATA`; `DATA` rows are expected to be rejected.
-- Paths are hardcoded to `/home/lab/CME/...` in scripts.
 
