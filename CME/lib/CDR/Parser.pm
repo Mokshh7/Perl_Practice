@@ -35,8 +35,8 @@ $_ = '';
 $_ =~ s/^\s+//;
 $_ =~ s/\s+$//;
 }
-$duration = 0 + ($duration // 0);
-
+$duration = defined $duration ? $duration : 0;
+$duration += 0;
 return {
 caller => $caller,
 callee => $callee,
